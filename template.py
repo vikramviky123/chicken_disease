@@ -12,6 +12,7 @@ project_name = "CD_Classifier"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
+    f"src/__init__.py",
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/a_constants/__init__.py",
     f"src/{project_name}/b_entity/__init__.py",
@@ -26,7 +27,8 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
-    "templates/index.html"
+    "templates/index.html",
+    "main.py"
 ]
 
 for filepath in list_of_files:
