@@ -1,0 +1,34 @@
+[ 2023-11-06 08:00:56,006 ] 31 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-06 08:01:13,135 ] 31 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-06 08:01:13,148 ] 31 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-06 08:01:13,150 ] 50 root - INFO - created directory at: artifacts
+[ 2023-11-06 08:01:22,217 ] 50 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-11-06 08:03:13,440 ] 24 root - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3226:9C1C9:6F06D:E256B:6548505E
+Accept-Ranges: bytes
+Date: Mon, 06 Nov 2023 02:33:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100035-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1699237984.865868,VS0,VE725
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b6c4ce1bc010be551711f27623816db1c8fdd115
+Expires: Mon, 06 Nov 2023 02:38:04 GMT
+Source-Age: 0
+
+
+[ 2023-11-06 08:03:13,440 ] 40 root - INFO - artifacts/data_ingestion Directory created
+[ 2023-11-06 08:03:13,891 ] 45 root - INFO - All files from zip were extracted to artifacts/data_ingestion
