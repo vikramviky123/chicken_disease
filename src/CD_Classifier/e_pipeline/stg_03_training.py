@@ -45,8 +45,8 @@ if __name__ == '__main__':
     try:
         logging.info(
             f"\n\nx==========x\n\n>>>>>> stage {STAGE_NAME} started <<<<<<")
-        DT_Pipe = TrainingPipeline()
-        DT_Pipe.main()
+        training_pipeline = TrainingPipeline()
+        training_pipeline.main()
         logging.info(
             f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
     except Exception as e:

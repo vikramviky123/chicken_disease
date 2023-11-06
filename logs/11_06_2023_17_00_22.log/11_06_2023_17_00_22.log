@@ -1,0 +1,4 @@
+[ 2023-11-06 17:02:02,081 ] 33 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-06 17:02:02,089 ] 33 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-06 17:02:02,093 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-06 17:53:10,085 ] 70 root - INFO - json file saved at: scores.json

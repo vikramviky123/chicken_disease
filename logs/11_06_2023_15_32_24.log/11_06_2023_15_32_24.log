@@ -1,6 +1,0 @@
-[ 2023-11-06 15:32:30,607 ] 33 root - INFO - yaml file: config\config.yaml loaded successfully
-[ 2023-11-06 15:32:30,621 ] 33 root - INFO - yaml file: params.yaml loaded successfully
-[ 2023-11-06 15:32:30,623 ] 54 root - INFO - created directory at: artifacts
-[ 2023-11-06 15:32:30,625 ] 54 root - INFO - created directory at: artifacts\callbacks\checkpoint_dir
-[ 2023-11-06 15:32:30,625 ] 54 root - INFO - created directory at: artifacts\callbacks\tensorboard_log_dir
-[ 2023-11-06 15:52:08,726 ] 54 root - INFO - created directory at: artifacts\training
