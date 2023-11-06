@@ -1,0 +1,11 @@
+[ 2023-11-06 13:38:25,867 ] 33 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-06 13:38:25,873 ] 33 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-06 13:38:25,878 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-06 13:39:54,148 ] 33 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-06 13:39:54,155 ] 33 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-06 13:39:54,160 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-06 13:39:54,163 ] 54 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-11-06 13:39:54,165 ] 36 root - INFO - data ingestion config is ready to use
+[ 2023-11-06 13:43:16,820 ] 33 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-06 13:43:16,823 ] 33 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-06 13:43:16,825 ] 54 root - INFO - created directory at: artifacts

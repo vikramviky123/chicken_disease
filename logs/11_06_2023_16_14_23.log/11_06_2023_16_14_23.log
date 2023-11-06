@@ -1,0 +1,76 @@
+[ 2023-11-06 16:14:31,441 ] 10 root - INFO - 
+
+x==========x
+
+>>>>>> stage Data--Ingestion--Stage started <<<<<<
+[ 2023-11-06 16:14:31,445 ] 33 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-06 16:14:31,449 ] 33 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-06 16:14:31,451 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-06 16:14:31,451 ] 21 root - INFO - ===========> Configuration Manager instance created
+[ 2023-11-06 16:14:31,452 ] 54 root - INFO - created directory at: artifacts/data_ingestion
+[ 2023-11-06 16:14:31,452 ] 41 root - INFO - data ingestion config is ready to use
+[ 2023-11-06 16:14:31,452 ] 26 root - INFO - ===========> Data Ingestion directories Configured
+[ 2023-11-06 16:14:51,782 ] 25 root - INFO - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5182:35D60:D4657:191925:6548C391
+Accept-Ranges: bytes
+Date: Mon, 06 Nov 2023 10:44:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100022-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1699267473.472595,VS0,VE946
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a98cd285eaa2a0ec8dc5affbfc889df5260a043e
+Expires: Mon, 06 Nov 2023 10:49:34 GMT
+Source-Age: 1
+
+
+[ 2023-11-06 16:14:51,782 ] 42 root - INFO - artifacts/data_ingestion Directory created
+[ 2023-11-06 16:14:52,331 ] 47 root - INFO - All files from zip were extracted to artifacts/data_ingestion
+[ 2023-11-06 16:14:52,331 ] 33 root - INFO - ===========> Data Ingestion completed
+[ 2023-11-06 16:14:52,331 ] 14 root - INFO - >>>>>> stage Data--Ingestion--Stage completed <<<<<<
+
+x==========x
+[ 2023-11-06 16:14:52,331 ] 24 root - INFO - 
+
+x==========x
+
+>>>>>> stage Base--Model--Preparation started <<<<<<
+[ 2023-11-06 16:14:52,331 ] 33 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-06 16:14:52,342 ] 33 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-06 16:14:52,343 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-06 16:14:52,343 ] 21 root - INFO - ===========> Configuration Manager instance created
+[ 2023-11-06 16:14:52,344 ] 54 root - INFO - created directory at: artifacts/base_model
+[ 2023-11-06 16:14:52,345 ] 26 root - INFO - ===========> Base Model directories Configured
+[ 2023-11-06 16:14:53,070 ] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2023-11-06 16:14:53,331 ] 32 root - INFO - ===========> Base Model Created
+[ 2023-11-06 16:14:53,729 ] 34 root - INFO - ===========> Base Model Updated
+[ 2023-11-06 16:14:53,729 ] 28 root - INFO - >>>>>> stage Base--Model--Preparation completed <<<<<<
+
+x==========x
+[ 2023-11-06 16:14:53,729 ] 39 root - INFO - 
+
+x==========x
+
+>>>>>> stage Training--the--Data started <<<<<<
+[ 2023-11-06 16:14:53,729 ] 33 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-11-06 16:14:53,729 ] 33 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-11-06 16:14:53,729 ] 54 root - INFO - created directory at: artifacts
+[ 2023-11-06 16:14:53,740 ] 54 root - INFO - created directory at: artifacts\callbacks\checkpoint_dir
+[ 2023-11-06 16:14:53,742 ] 54 root - INFO - created directory at: artifacts\callbacks\tensorboard_log_dir
+[ 2023-11-06 16:14:53,745 ] 54 root - INFO - created directory at: artifacts\training
+[ 2023-11-06 16:15:35,281 ] 43 root - INFO - >>>>>> stage Training--the--Data completed <<<<<<
+
+x==========x

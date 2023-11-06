@@ -13,6 +13,7 @@ class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
         self.config = config
 
+# -----------------------------------------------------------------------------
     def download_file(self):
 
         try:
@@ -31,6 +32,7 @@ class DataIngestion:
             logging.info(CustomException(e, sys))
             raise CustomException(e, sys)
 
+# -----------------------------------------------------------------------------
     def extract_zip_file(self):
 
         try:
@@ -47,3 +49,4 @@ class DataIngestion:
         except Exception as e:
             logging.info(CustomException(e, sys))
             raise CustomException(e, sys)
+# -----------------------------------------------------------------------------
